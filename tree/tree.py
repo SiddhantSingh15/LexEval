@@ -913,7 +913,3 @@ class Tree:
                 )
         for child in node.children:
             self.print_tree(child, level + 1, model_name)
-
-
-if __name__ == "__main__":
-    print('hello world')
