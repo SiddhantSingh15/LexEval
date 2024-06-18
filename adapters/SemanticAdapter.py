@@ -5,7 +5,7 @@ import time
 import json
 import os
 
-client = OpenAI(api_key=os.getenv("NOMAD_AI_API_KEY"))
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 together_client = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
 
 
